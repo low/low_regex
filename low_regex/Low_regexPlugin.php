@@ -24,7 +24,7 @@ class Low_regexPlugin extends BasePlugin
 		return 'http://gotolow.com';
 	}
 
-	public function hookAddTwigExtension()
+	public function addTwigExtension()
 	{
 		Craft::import('plugins.low_regex.twigextensions.Low_regexTwigExtension');
 
