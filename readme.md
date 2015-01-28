@@ -1,6 +1,6 @@
 # Low Regex for Craft
 
-Adds a preg_replace filter to Twig.
+Adds a preg_replace filter to Twig. No obsolete, as Craft now boasts a [native regex replace filter](http://buildwithcraft.com/docs/templating/filters#replace}.
 
 ## Usage
 
